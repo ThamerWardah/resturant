@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    width: 100vw;
+    overflow-x: hidden;
+    touch-action: pan-y;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color:white;
+    padding:0px;
+    padding-right: 20px;
+    height: 13.5vh;
+    width: 100%;
+    border-radius: 0 0 0 60px ;
+    letter-spacing: 2px;
+    text-shadow: -2px -5px 4px black;
+}
+.header h3{
+    padding: 4px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgb(255, 193, 60);
+    background-color:rgba(255, 255, 255, 0.441) ;
+    border: 1px solid rgb(253, 152, 21);
+}
+.header img{
+    width:21vh ;
+    height: 22vh;
+    border-radius: 50%;
+}
+
+.startersContent{
+    margin-top:14vh;
+    padding-top:60px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.starter{
+    width:45vw;
+    height:35vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.startersContent{
+    padding-top:60px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.starter{
+    width:45vw;
+    height:35vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+    overflow: hidden;
+}
+.piz{
+    width: 100%;
+    height: 90%;
+    background-size: 100% 100%;
+
+}
+
+.pizza1{
+    background-image: url('./img/pizaakhima8000.jpg');
+}
+
+.pizza2{
+    background-image: url('./img/pizaakhima5000.jpg');
+}
+
+.pizza3{
+    background-image: url('./img/pizzaa1.jpg');
+}
+.pizza4{
+    background-image: url('./img/pizzaameat5000.jpg');
+}
+.pizza5{
+    background-image: url('./img/pizaach7000.jpg');
+}
+.pizza6{
+    background-image: url('./img/pizaach5000.jpg');
+}
+.pizza7{
+    background-image: url('./img/vegtable8000.jpg');
+}
+.pizza8{
+    background-image: url('./img/vegtable7000.jpg');
+}
+.pizza9{
+    background-image: url('./img/pizaamarkit7000.jpg');
+}
+.pizza10{
+    background-image: url('./img/pizaamarkit5000.jpg');
+}
+.pizza11{
+    background-image: url('./img/pizaapironi7000.jpg');
+}
+.pizza12{
+    background-image: url('./img/pizaapironi5000.jpg');
+}
+.pizza13{
+    background-image: url('./img/pizaamarkita.jpg');
+}
+
+
+
+@media screen and (min-width:500px) {
+    body{
+        background-color:lightslategray;
+    }
+
+    .starter{
+        width:30vw;
+    }
+}

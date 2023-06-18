@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    touch-action:pan-y;
+}
+
+body{
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding:0px;
+    padding-right: 20px;
+    height: 13.5vh;
+    border-radius: 0 0 0 60px ;
+}
+
+.header h3{
+    color:white;
+    font-family:cursive;
+    letter-spacing: 2px;
+    text-shadow: -2px -5px 4px black;
+    padding: 4px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgb(255, 193, 60);
+    background-color:rgba(255, 255, 255, 0.441) ;
+    border: 1px solid rgb(255, 196, 47);
+}
+.header img{
+    width:21vh ;
+    height: 22vh;
+    border-radius: 50%;
+}
+
+.bodycontainer{
+    width: 100%;
+    min-height:72vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:65px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px;
+    text-align: center;
+
+}
+
+.mu{
+    width: 44vw;
+    max-width: 44vw;
+    max-height: 35vw;
+    background-size: cover;
+    background-position: center center;
+    font-size: larger;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    border-radius: 8px;
+    box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.747);
+    text-decoration: none;
+    overflow: hidden;
+    background-size: 100% 100%;
+
+}
+
+
+.option1{
+    background-image: url('./img/optizers.jpg');
+    
+}
+.option2{
+    background-image: url('./img/grids.jpg');
+}
+.option3{
+    background-image: url('./img/sharki.jpg');
+}
+.option4{
+    background-image: url('./img/pizza.jpg');
+}
+.option5{
+    background-image: url('./img/jarbi.jpg');
+}
+.option6{
+    background-image: url('./img/drinks.jpg');
+    background-size:90% 100%;
+}
+
+.copyright{
+    margin: 30px;
+    text-align: center;
+}
+
+
+@media screen and (min-width:520px) {
+   
+
+    .mu{
+        width:30vw;
+    }
+}
+
